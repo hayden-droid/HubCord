@@ -14,8 +14,7 @@
     color: var(--text-normal);
 }
 
-
-//Colored Hashtags
+// Colored Hashtags
 $coloured-channel-hashtags: true;
 @if $coloured-channel-hashtags {
     //Channels
@@ -35,11 +34,11 @@ $coloured-channel-hashtags: true;
     }
 
     .modeUnread-1qO3K1 .iconContainer-1BBaeJ path { //Unread Icon
-        fill: var(--background-accent);
+        fill: var(--accent);
     }
 
     .modeSelected-346R90 .iconContainer-1BBaeJ path { //Selected Icon
-        fill: var(--text-normal);
+        fill: var(--accent);
     }
 }
 
