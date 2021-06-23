@@ -1,0 +1,10 @@
+{
+    "icon": "assets/logo.png",
+    "name": "HubCord",
+    "description": "We brought the hub to Discord",
+    "version": "0.9",
+    "author": "Primoris#0039",
+    "theme": "hubcord.scss",
+    "consent": "false",
+    "license": "MIT"
+}
