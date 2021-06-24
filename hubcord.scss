@@ -178,6 +178,7 @@
 
 .folderIconWrapper-1_bOZe {
   border-radius: 5px;
+  background-color: #252525 !important;
 }
 
 //Messages Stuff
@@ -386,3 +387,14 @@ html.theme-dark .force-theme.theme-light {
   .typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
     display: none;
   }
+
+//Background Popout
+.avatar-37jOim {
+  background: none;
+  border: none;
+}
+
+//Friends list
+.peopleColumn-29fq28 {
+  background: var(--background-primary);
+}
