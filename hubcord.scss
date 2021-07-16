@@ -26,9 +26,9 @@
     --channeltextarea-background: #191919;
     --background-accent: #FFA31A;
     --background-message-hover: transparent;
-    --background-modifier-hover: #000000;
-    --background-modifier-active: #000000;
-    --background-modifier-selected: #000000;
+    --background-modifier-hover: #252525;
+    --background-modifier-active: #252525;
+    --background-modifier-selected: #252525;
     --deprecated-card-bg: #000000;
     --background-floating: #000000;
     --deprecated-quickswitcher-input-background:#000000;
@@ -173,6 +173,10 @@
 
 .wrapper-25eVIn > svg > foreignObject {
   mask: none;
+  border-radius: 5px;
+}
+
+.wrapperSimple-19ogV2{
   border-radius: 5px;
 }
 
@@ -405,4 +409,14 @@ html.theme-dark .force-theme.theme-light {
 .markup-2BOw-j code.inline {
   color: var(--text-normal);
   padding: 0 0 0 0;
+}
+
+//Memberslist Hover
+.item-1tOPte:hover {
+  background-color: #000000;
+}
+
+//Selected DM
+.layout-2DM8Md {
+  border-radius: 6px 0px 0px 0px;
 }
