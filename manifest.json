@@ -6,5 +6,36 @@
     "author": "Primoris#0039",
     "theme": "hubcord.scss",
     "consent": "false",
-    "license": "MIT"
+    "license": "MIT",
+    "settings": [
+        {
+                "type": "color",
+                "defaultValue": "var(--color-tint-1)",
+                "note": "This is a color picker.",
+                "name": "Color Pooper",
+                "id": "sub-nav-color"
+            },
+        {
+          "type": "switch",
+          "defaultValue": true,
+          "note": "This is a test switch.",
+          "name": "Switch Item",
+          "id": "switchTest"
+        },
+        {
+          "type": "markdown",
+          "source": "### Hi\n> That's the markdown test."
+        },
+        {"type": "divider"},
+        {
+          "type": "radio",
+          "note": null,
+          "defaultValue": 1,
+          "options": [
+            {"name": "Test a", "value": 1},
+            {"name": "Test b", "value": 2}
+          ],
+          "id": "radioTest1"
+        }
+      ]
 }
