@@ -1,6 +1,6 @@
-//Custom Changes
+/** Custom Changes **/
 
-//Hide Gift Button
+/**Hide Gift Button **/
 .channelTextArea-rNsIhG .buttons-3JBrkn .button-38aScr[tabindex="0"]:first-child,
 .channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA + .buttonWrapper-1ZmCpA[tabindex="0"] {
     display: none;
@@ -9,46 +9,17 @@
     display: block !important;
 }
 
-//Channel Names
+/**Channel Names **/
 .channelName-2YrOjO::first-letter{
     text-transform: uppercase;
 }
 
-//Folders
+/**Folders **/
 .expandedFolderIconWrapper-Huv7rA {
     color: var(--text-normal);
 }
 
-// Colored Hashtags
-$coloured-channel-hashtags: true;
-@if $coloured-channel-hashtags {
-    //Channels
-    .unread-2lAfLh {
-        visibility: hidden;
-    }
-
-    .modeUnread-1qO3K1 .name-23GUGE,
-    .mainContent-u_9PKf:hover .name-23GUGE,
-    .name-23GUGE { //Unread ChannelName
-        color: var(--channels-default);
-    }
-
-    .modeSelected-346R90 .name-23GUGE,
-    .modeSelected-346R90:hover .name-23GUGE { //Selected ChannelName
-        color: var(--text-normal);
-    }
-
-    .modeUnread-1qO3K1 .iconContainer-1BBaeJ path { //Unread Icon
-        fill: var(--accent);
-    }
-
-    .modeSelected-346R90 .iconContainer-1BBaeJ path { //Selected Icon
-        fill: var(--accent);
-    }
-}
-
-
-//New Message
+/** New Message **/
 #---new-messages-bar {
     border-color: var(--background-accent);
     border-style: dotted;
@@ -63,12 +34,12 @@ $coloured-channel-hashtags: true;
     background-color: var(--background-accent);
 }
 
-//Selected Server
+/**Selected Server **/
 .item-2hkk8m {
     background-color: var(--background-accent);
 }
 
-//Selected DM text
+/** Selected DM text **/
 .selected-aXhQR6.container-2Pjhx- {
     color: var(--text-normal);
 }
@@ -81,7 +52,8 @@ $coloured-channel-hashtags: true;
     display: none
 }
 /* 
-//Role Backgrounds in Memberslist
+
+/** Role Backgrounds in Memberslist **/
 span.roleColor-rz2vM0::after {
     content: "";
     background: currentColor;
@@ -91,9 +63,9 @@ span.roleColor-rz2vM0::after {
     opacity: 0.11;
     left: 0;
     top: 0;
-} */
+}
 
-//Custom URL colors
+/** Custom URL colors **/
 [href*="youtu.be"],
 [href*="youtube.com"] {
     color: #C4302B !important;
@@ -126,13 +98,6 @@ span.roleColor-rz2vM0::after {
     font-weight: 700;
 }
 
-[href*="instagram.com/"]{
-    background: -webkit-linear-gradient(80deg, rgb(255, 238, 0), rgb(255, 157, 11), #B700FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-} 
-
 [href*="twitter.com/"]{
     color: #00ACEE !important;
     font-weight: 700;
@@ -155,8 +120,8 @@ span.roleColor-rz2vM0::after {
     font-weight: 700;
 }
 
-//Role Indicator
-.avatar-3uk_u9 .wrapper-3t9DeA rect { //Removes indicator
+/** Role Indicator **/
+.avatar-3uk_u9 .wrapper-3t9DeA rect { /**Removes indicator **/
     display: none;
   }
 
@@ -164,12 +129,12 @@ span.roleColor-rz2vM0::after {
     display: none;
 }
 
-//User Popout Status Buttons
-.theme-dark .contentImagesUserPopout-1vLdRA::after { //Background
+/** User Popout Status Buttons **/
+.theme-dark .contentImagesUserPopout-1vLdRA::after { /**Background **/
     background: var(--background-secondary);
 }
 
-.theme-dark .activityUserPopout-2yItg2 .button-38aScr { //Button
+.theme-dark .activityUserPopout-2yItg2 .button-38aScr { /**Button **/
     background: var(--background-primary);
     color: #FFF;
     box-shadow: none;
@@ -187,25 +152,12 @@ span.roleColor-rz2vM0::after {
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
     background: var(--background-secondary);
 }
-// Hides Textbox when you don't have permission to talk in the channel
+/** Hides Textbox when you don't have permission to talk in the channel **/
 .channelTextAreaDisabled-8rmlrp > div {
     display: none
   }
 
-//Hide Memberslist Typing Indicator
-.mask-1l8v16 .dots-3Bkt3k {
-    display: none;
-  }
-  .mask-1l8v16 .pointerEvents-2zdfdO[mask="url(#svg-mask-status-typing)"] {
-    mask: url(#svg-mask-status-online);
-    width: 10px;
-    x: 22px;
-  }
-  .mask-1l8v16 foreignObject[mask="url(#svg-mask-avatar-status-typing-32)"] {
-    mask: url(#svg-mask-avatar-status-round);
-  }
-
-//Hides Blocked messages
+/** Hides Blocked messages in the channel **/
 div[class^="container-"]{ min-height: 0; }
 div[class^="blockedSystemMessage-"], div[class*="blockedSystemMessage-"] { 
     
@@ -216,13 +168,13 @@ div[class^="groupStart-"], div[class^="da-groupStart"] {
     display: none;
 }
 
-//Full color emoji
+/** Full color emoji **/
 :root .sprite-2iCowe {
     -webkit-filter: var(--colored-emoji) !important;
     filter: var(--colored-emoji) !important;
 }
 
-//Larger message Emoji
+/** Larger message Emoji **/
 .messageContent-2qWWxC .emoji {
   width: var(--emoji-size);
   height: var(--emoji-size);
